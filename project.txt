@@ -10,4 +10,5 @@ pip install dvc
 6) NOW WE DO "dvc remote add -d myremote S3"
 7) NEXT 'dvc add data/'(this will give error..and then run the command)
 8)AGAIN WE DO 'dvc add data/' (creates data.dvc) then "git add .gitignore data.dvc"
-9)
+9)NOW WE DO "dvc commit" and then dvc push
+10) DO A GIT ADD,COMMIT ADN PUSH TO MARK THE STAGE AS FIRST VERSION OF THE DATA.
