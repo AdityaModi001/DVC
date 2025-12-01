@@ -8,6 +8,17 @@ data = {'name':['Alice','Bob','Charlie'],
 df = pd.DataFrame(data)
 
 
+# Adding new row to df for V2
+new_row_loc = {'name': 'GF1', 'Age': 20, 'City': 'City1'}
+df.loc[len(df.index)] = new_row_loc
+
+# Adding new row to df for V3df = pd.DataFrame(data)
+# new_row_loc2 = {'Name': 'V3',
+#                 'Age': 30,
+#                 'City': 'City1'}
+# df.loc[len(df.index)] = new_row_loc2
+
+
 
 # Ensures that 'data' directory exits at the root level
 data_dir = 'data'  # this is the folder name !!

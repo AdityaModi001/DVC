@@ -12,3 +12,5 @@ pip install dvc
 8)AGAIN WE DO 'dvc add data/' (creates data.dvc) then "git add .gitignore data.dvc"
 9)NOW WE DO "dvc commit" and then dvc push
 10) DO A GIT ADD,COMMIT ADN PUSH TO MARK THE STAGE AS FIRST VERSION OF THE DATA.
+11) NOW WE MAKE CHANGE TO THE mycode.py file and to append a new row in the data , and check changes via dvc status.
+12) AGAIN - - "DVC COMMIT AND THEN "DVC PUSH"
