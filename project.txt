@@ -1,7 +1,13 @@
 ********************HERE WE ARE GOING TO WRITE THE STEPS FOR THIS***********
-
 1)CREATE A GIT REPO AND CLONE IT IN LOCAL
-
 2) CREATE A CODE.PY AND ADD CODE TO IT.(IT WILL SAVE A DATA FILE TO NEW 'Data' FOLDER)
+3)DO A GIT ADD,COMMIT,PUSH BEFORE INITIALIZING DVC
 
-3)
+pip install dvc
+
+4)HOW WE DO "DVC INIT"....SO it CREATES(.dvcignore, .dvc).
+5)now do "mkdir S3"(create a new S3 Directory(new folder).
+6) NOW WE DO "dvc remote add -d myremote S3"
+7) NEXT 'dvc add data/'(this will give error..and then run the command)
+8)AGAIN WE DO 'dvc add data/' (creates data.dvc) then "git add .gitignore data.dvc"
+9)
